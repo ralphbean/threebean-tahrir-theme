@@ -17,17 +17,17 @@ requires = []
 version = '0.1.0'
 
 setup(
-    name='fossrit_tahrir_theme',
+    name='fossrit-tahrir-theme',
     version=version,
-    description="FOSSRIT theme for the tahrir open badges webapp",
+    description="FOSSRIT theme for the Tahrir Open Badges webapp",
     long_description=long_description,
     author='David Gay',
     author_email='oddshocks@riseup.net',
-    url='http://github.com/ralphbean/ansi2html/',
+    url='https://github.com/FOSSRIT/fossrit-tahrir-theme',
     license='GPLv3+',
     classifiers=[],
     install_requires=requires,
-    packages=['fossrit_tahrir_theme'],
+    packages=['fossrit-tahrir-theme'],
     include_package_data=True,
     zip_safe=False,
 )
