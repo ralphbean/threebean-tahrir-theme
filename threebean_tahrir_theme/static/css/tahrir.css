@@ -15,9 +15,19 @@ body {
     width: 100%;
 }
 
-a, a:visited, a:active, a:link {
-    color: #3C6EB4;
+a {
+    border-radius: 3px 3px 3px 3px;
+    color: #D01A55;
+    //padding: 0 2px;  // This messes with the gravatars
     text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    background: none repeat scroll 0 0 #FCB3D0;
+    color: #000000;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
 }
 
 legend {
@@ -28,7 +38,7 @@ legend {
 
 /* Header Styles */
 .header {
-    color: #3158AF;
+    color: #D01A55;
     height: 75px;
 }
 .header a {
@@ -36,9 +46,10 @@ legend {
 }
 
 #site-logo {
-    width: 125px;
-    height: 74px;
-    background-image: url(../img/fossrit_badges.png);
+    width: 800px;
+    height: 100px;
+    background-image: url(../img/threebean-logo.png);
+    background-size: 58%;
     background-repeat: no-repeat;
     margin-right: 10px;
     margin-left: 10px;
@@ -57,7 +68,7 @@ legend {
 
 .pretty-list li {
     vertical-align: middle;
-    background: url(../img/badge_bullet_fedora.png) no-repeat left center;
+    //background: url(../img/badge_bullet_fedora.png) no-repeat left center;
     padding-left: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -112,7 +123,7 @@ footer {
 
 .navbar {
     list-style-type: none;
-    background: #F36E21;
+    background: #D01A55;//F36E21;
     color: white;
     width: 100%;
     padding: 5px 0;
@@ -139,7 +150,7 @@ td {
     padding: 10px;
 }
 
-tr:nth-child(odd) { background: #E8EFF8; } /* "Clear day" */
+tr:nth-child(odd) { background: white; }//#E8EFF8; } /* "Clear day" */
 
 tr:nth-child(even) { background: white; }
 
@@ -176,7 +187,7 @@ tr:nth-child(even) { background: white; }
 
 /* Applied to <button> tags. */
 .pretty-button {
-    background: #3158AF;
+    background: #D01A55;//3158AF;
     color: white;
     text-align: center;
     padding: 10px;
@@ -188,7 +199,7 @@ tr:nth-child(even) { background: white; }
 
 /* Applied to actual submit buttons (on forms). */
 .pretty-submit {
-    background: #F36E21;
+    background: #D01A55;//F36E21;
     color: white;
     text-align: center;
     height: 50px;
@@ -196,7 +207,7 @@ tr:nth-child(even) { background: white; }
 }
 
 .section-header {
-    background: #F36E21;
+    background: #D01A55;//F36E21;
     color: white;
     text-align: center;
     padding: 10px;

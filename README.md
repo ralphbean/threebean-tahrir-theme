@@ -1,17 +1,17 @@
-# fossrit-tahrir-theme
+# threebean_tahrir_theme
 
-Custom FOSSRIT theme for Tahrir. To be used for the FOSSBox's Open Badges frontend.
+Custom threebean.org theme for Tahrir. To be used for my personal badges.
 
 ## Usage
 
 In your Tahrir virtualenv, install this theme from PyPI:
 
-    pip install fossrit-tahrir-theme
+    pip install threebean_tahrir_theme
 
 In the config file you use to start your server, make sure the following
 option is set:
 
-    tahrir.theme_name = fossrit-tahrir-theme
+    tahrir.theme_name = threebean_tahrir_theme
 
 So if you start your server with `pserve myconfig.ini --reload` or something
 of that nature, you want to make the change in `myconfig.ini`. Tahrir by
@@ -26,5 +26,9 @@ This project is licensed under GPLv3+. The full text of this license should be
 included with this project in the `LICENSE` file.
 
 ## Contributors
+
+-   Ralph Bean (threebean)
+
+Forked from the fossrit_tahrir_theme originally written by:
 
 -   David Gay (oddshocks)

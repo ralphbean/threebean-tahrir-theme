@@ -14,20 +14,20 @@ f.close()
 
 requires = []
 
-version = '0.1.4'
+version = '0.0.1'
 
 setup(
-    name='fossrit_tahrir_theme',
+    name='threebean_tahrir_theme',
     version=version,
-    description="FOSSRIT theme for the Tahrir Open Badges webapp",
+    description="threebean.org theme for the Tahrir Open Badges webapp",
     long_description=long_description,
-    author='David Gay',
-    author_email='oddshocks@riseup.net',
-    url='https://github.com/FOSSRIT/fossrit-tahrir-theme',
+    author='Ralph Bean',
+    author_email='rbean@redhat.com',
+    url='https://github.com/ralphbean/threebean-tahrir-theme',
     license='GPLv3+',
     classifiers=[],
     install_requires=requires,
-    packages=['fossrit_tahrir_theme'],
+    packages=['threebean_tahrir_theme'],
     include_package_data=True,
     zip_safe=False,
 )
