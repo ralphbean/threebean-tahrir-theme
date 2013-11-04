@@ -14,10 +14,10 @@ f.close()
 
 requires = []
 
-version = '0.1.2'
+version = '0.1.3'
 
 setup(
-    name='fossrit-tahrir-theme',
+    name='fossrit_tahrir_theme',
     version=version,
     description="FOSSRIT theme for the Tahrir Open Badges webapp",
     long_description=long_description,
@@ -27,7 +27,7 @@ setup(
     license='GPLv3+',
     classifiers=[],
     install_requires=requires,
-    packages=['fossrit-tahrir-theme'],
+    packages=['fossrit_tahrir_theme'],
     include_package_data=True,
     zip_safe=False,
 )
